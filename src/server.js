@@ -8,6 +8,8 @@ const flash = require("connect-flash");
 const morgan = require("morgan");
 const logger = require("./helpers/winston.js");
 const config = require("./config/index.js");
+const passport = require("passport");
+require('./passport/passport.js');
 
 /* -------------------- Rutas ---------------------- */
 const router = require("./routes/productos.routes.js");
@@ -36,6 +38,8 @@ app.use(
     cookie: { maxAge: 60000 },
   })
 );
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));

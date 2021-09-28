@@ -1,17 +1,17 @@
 const logger = require("../helpers/winston.js");
 const ProductoMongo = require("../db_persistence/ProductoMongo.js");
-const ProductoArray = require("../db_persistence/ProductoArray.js");
 const database = "";
 
 class FactoryProducto {
   constructor(number) {
     this.database = database;
     switch (number) {
-      case 1:
-        this.database = new ProductoMongo();
-        break;
+      //example
+      // case 1:
+      //   this.database = new ProductoArray();
+      //   break;
       default:
-        this.database = new ProductoArray();
+        this.database = new ProductoMongo();
         break;
     }
   }
@@ -24,10 +24,10 @@ class FactoryProducto {
         thumbnail: data.thumbnail,
         description: data.description,
         category: data.category,
-        stock: data.stock
+        stock: data.stock,
       };
       const prod = await this.database.addPersistenceProducto(dataToDb);
-      return prod
+      return prod;
     } catch (error) {
       logger.error.error(error);
     }
@@ -46,6 +46,18 @@ class FactoryProducto {
     try {
       const prodById = await this.database.findByIDPersistenceProducto(id);
       return prodById;
+    } catch (error) {
+      logger.error.error(error);
+    }
+  }
+
+  async findByCategory(category) {
+    try {
+      const prodByCategory =
+        await this.database.findByCategoryPersistenceProducto(category);
+      if (prodByCategory) {
+        return prodByCategory;
+      }
     } catch (error) {
       logger.error.error(error);
     }

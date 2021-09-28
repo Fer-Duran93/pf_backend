@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
+const config = require('../config/index.js');
 
-async function mail(mail, subjet, html) {
+async function mailing(mail, subject, html) {
     let testAccount = await nodemailer.createTestAccount();
 
     let transporter = nodemailer.createTransport({
@@ -8,8 +9,8 @@ async function mail(mail, subjet, html) {
         port: 587,
         secure: false,
         auth: {
-            user: 'blaze.mccullough70@ethereal.email',
-            pass: 'mhb7HJm8pBB8qxgdKc' 
+            user: config.MAIL_FROM,
+            pass: config.MAIL_PASS 
         },
         tls: {
             rejectUnauthorized: false
@@ -17,13 +18,13 @@ async function mail(mail, subjet, html) {
     });
 
     let info = await transporter.sendMail({
-        from: 'blaze.mccullough70@ethereal.email',
-        to: await mail || "blaze.mccullough70@ethereal.email",
-        subject: await subjet,
+        from: config.MAIL_FROM,
+        to: await mail || config.MAIL_TO,
+        subject: await subject,
         html: await html,
     });
 
     console.log(info);
 }
 
-module.exports = mail
+module.exports = mailing

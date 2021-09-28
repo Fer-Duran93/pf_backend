@@ -27,6 +27,11 @@ class UserMongo {
 
   /* -------------------- Login ---------------------- */
 
+  async userLoginDB (email) {
+    const user = await UserModel.findOne({ email: email });
+    return user
+  }
+
   async mainGetPersistance(userName, photo) {
     try {
       userInfo.push(await userName, photo);

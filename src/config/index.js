@@ -13,4 +13,7 @@ module.exports = {
   DB_PASS: process.env.DB_PASS,
   DB_USER: process.env.DB_USER,
   TOKEN: process.env.TOKEN,
+  MAIL_FROM: process.env.MAIL_FROM,
+  MAIL_TO: process.env.MAIL_TO,
+  MAIL_PASS: process.env.MAIL_PASS,
 };

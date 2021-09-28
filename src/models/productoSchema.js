@@ -3,12 +3,12 @@ const Schema = mongoose.Schema;
 
 const productoSchema = new Schema(
   {
-    title: { type: String },
-    price: { type: Number },
-    description: { type: String },
-    category: { type: String },
-    stock: { type: Number },
-    thumbnail: { type: String },
+    title: String,
+    price: Number,
+    description: String,
+    category: String,
+    stock: Number,
+    thumbnail: String,
   },
   {
     timestamps: true,

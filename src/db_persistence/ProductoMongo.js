@@ -37,6 +37,19 @@ class ProductoMongo extends DatabaseProductoDao {
     }
   }
 
+  async findByCategoryPersistenceProducto(category) {
+    try {
+      const prodByCategory = await ProductoModel.find({
+        category: { $eq: category }
+      });
+      if (prodByCategory) {
+        return prodByCategory;
+      }
+    } catch (error) {
+      logger.error.error(error);
+    }
+  }
+
   async deletePersistenceProducto(_id) {
     try {
       const prodToDel = await ProductoModel.deleteOne({ _id });

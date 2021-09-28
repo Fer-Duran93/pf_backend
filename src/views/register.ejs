@@ -14,11 +14,17 @@
                     <h3 style="text-align:center" class="my-4">REGISTRO DE USUARIO</h3>
                     <form method="POST" action="/user/register" autocomplete="off">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="username" placeholder="Usuario"
-                                aria-label="Recipient's username" aria-describedby="button-addon2" name="username"
+                            <input type="email" class="form-control" id="email" placeholder="Email"
+                                aria-label="Recipient's email" aria-describedby="button-addon2" name="email"
                                 required>
                             <input type="password" class="form-control" id="password" placeholder="Contraseña"
                                 aria-label="Recipient's username" aria-describedby="button-addon2" name="password"
+                                required>
+                            <input type="text" class="form-control" id="username" placeholder="Nombre de Usuario"
+                                aria-label="Recipient's username" aria-describedby="button-addon2" name="username"
+                                required>
+                            <input type="number" class="form-control" id="phone" placeholder="Teléfono"
+                                aria-label="Recipient's phone" aria-describedby="button-addon2" name="phone"
                                 required>
 
                             <div class="input-group-append">

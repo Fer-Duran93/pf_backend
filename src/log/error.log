@@ -453,3 +453,150 @@
 2021-09-27T00:38:50.852Z [31merror[39m: 	UserModel is not a constructor
 2021-09-27T00:39:26.021Z [31merror[39m: 	UserModel is not a constructor
 2021-09-27T00:41:06.235Z [31merror[39m: 	Cannot read property 'methods' of undefined
+2021-09-27T01:53:46.782Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:54:11.570Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:54:31.173Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:55:28.121Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:55:57.382Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:56:16.444Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:57:03.828Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:57:36.265Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:58:29.246Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T01:58:57.294Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T02:00:42.691Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T02:03:06.942Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T02:03:50.281Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T02:05:28.217Z [31merror[39m: 	bcrypt is not defined
+2021-09-27T02:06:06.566Z [31merror[39m: 	factory.validatePassword is not a function
+2021-09-27T02:08:21.604Z [31merror[39m: 	factory.validatePassword is not a function
+2021-09-27T02:17:15.014Z [31merror[39m: 	factory.validatePassword is not a function
+2021-09-27T02:17:56.933Z [31merror[39m: 	factory.validatePassword is not a function
+2021-09-27T02:18:14.078Z [31merror[39m: 	factory.validatePassword is not a function
+2021-09-27T02:23:39.768Z [31merror[39m: 	matchPassword is not defined
+2021-09-27T02:26:38.169Z [31merror[39m: 	Invalid status code: error
+2021-09-27T02:27:02.583Z [31merror[39m: 	Invalid status code: error
+2021-09-27T03:08:58.155Z [31merror[39m: 	mainGetService is not defined
+2021-09-27T03:14:52.972Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2021-09-27T03:15:28.320Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2021-09-27T03:15:51.250Z [31merror[39m: 	Cannot set headers after they are sent to the client
+2021-09-27T03:17:53.510Z [31merror[39m: 	Invalid status code: {
+  _id: 6151159007551253971c1eba,
+  email: 'maria@p.com',
+  password: '$2a$10$JdhHObq/Sq9UOKrpcWCkq.Vv.GiqMWuaRAW2w3hjjzaRrjPNNBkNq',
+  username: 'Maria',
+  phone: 1234455,
+  createdAt: 2021-09-27T00:51:28.324Z,
+  updatedAt: 2021-09-27T00:51:28.324Z
+}
+2021-09-27T03:18:54.315Z [31merror[39m: 	Invalid status code: { user: [Object] }
+2021-09-27T03:23:03.840Z [31merror[39m: 	Cannot read property 'username' of undefined
+2021-09-28T04:04:19.156Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:04:42.736Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:05:00.819Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:05:29.906Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:06:20.073Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:06:41.059Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:06:45.497Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:08:14.820Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:09:05.877Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:09:32.066Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:09:47.765Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:41:34.999Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:45:25.325Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:45:48.988Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:47:34.842Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:48:04.474Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:48:13.194Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:48:41.928Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:48:44.202Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:49:11.453Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:49:14.932Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:49:18.465Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:49:52.473Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T04:52:01.996Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:03:28.476Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-28T05:03:28.477Z [31merror[39m: 	Cannot read property 'status' of undefined
+2021-09-28T05:06:32.126Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-28T05:06:32.127Z [31merror[39m: 	Cannot read property 'status' of undefined
+2021-09-28T05:08:25.369Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:08:35.854Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:08:45.083Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:09:13.856Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-28T05:09:13.857Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-28T05:09:25.303Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:10:03.304Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:10:29.094Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-28T05:10:29.099Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-28T05:17:24.190Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:18:27.844Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:21:55.217Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:24:23.115Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:25:57.925Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:27:06.542Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:27:25.505Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:29:44.582Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:30:43.961Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:30:52.189Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:31:29.612Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:31:37.680Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:31:47.679Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:31:48.839Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:31:49.782Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:31:50.592Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:08.888Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:32:35.262Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:41.197Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:42.230Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:43.013Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:43.907Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:44.583Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:45.264Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:32:45.968Z [31merror[39m: 	Cast to ObjectId failed for value "category" (type string) at path "_id" for model "ProductoModel"
+2021-09-28T05:33:14.353Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:33:38.468Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:34:14.277Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:34:28.437Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:35:03.151Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:35:18.640Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:35:29.368Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:36:08.846Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:36:23.775Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:36:39.212Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:37:02.401Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:38:27.481Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:43:12.268Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:43:37.591Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:43:59.278Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:44:22.622Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:44:42.852Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:44:55.695Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:45:28.028Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:45:48.826Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:46:15.675Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:46:36.460Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:46:43.363Z [31merror[39m: 	req is not defined
+2021-09-28T05:47:07.636Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:47:25.837Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:47:30.043Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:47:47.399Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:47:53.927Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:48:21.380Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:48:24.490Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:50:59.361Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:52:52.191Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:52:55.318Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:53:06.292Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:53:19.466Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:53:42.439Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:53:52.698Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:54:17.595Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:54:29.884Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:54:40.007Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:55:02.227Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:55:09.636Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:55:27.414Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:55:28.616Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:55:47.886Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:56:07.541Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:56:12.233Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-28T05:56:38.708Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080

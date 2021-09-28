@@ -10,7 +10,7 @@ router.get('/', nuevoProducto.findAll);
 router.get('/:id', nuevoProducto.findByID);
 router.delete('/:id', nuevoProducto.deleteProd);
 router.put('/:id', nuevoProducto.update);
-
+router.get('/category/:category', nuevoProducto.viewByCategory);
 
 
 module.exports = router;

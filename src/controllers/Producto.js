@@ -1,6 +1,6 @@
 const FactoryProducto = require("../factory/factoryProducto.service.js");
 const logger = require("../helpers/winston.js");
-const config = require('../config/index.js');
+const config = require("../config/index.js");
 const factory = new FactoryProducto(parseInt(config.DATABASE));
 
 class Producto {
@@ -12,9 +12,8 @@ class Producto {
           .json({ mensaje: "Error al agregar un producto" });
       }
       const data = await req.body;
-
       factory.addServiceProducto(data);
-      return res.status(200).json("Producto agregado correctamente");
+      return res.redirect("/user/main");
     } catch (error) {
       logger.error.error(error);
     }
@@ -23,7 +22,9 @@ class Producto {
   async findAll(req, res) {
     try {
       const prodInDb = await factory.findAllServiceProducto();
-      if (!prodInDb) { res.status(404).send({ mensaje: 'No hay producto' }) }
+      if (!prodInDb) {
+        res.status(404).send({ mensaje: "No hay producto" });
+      }
       return res.status(200).json(prodInDb);
     } catch (error) {
       logger.error.error(error);
@@ -40,7 +41,9 @@ class Producto {
       }
       const prodById = await factory.findByIDServiceProducto(_id);
       if (!prodById) {
-        return res.status(404).json({ mensaje: "No se encontró el producto" });
+        return res
+          .status(404)
+          .json({ mensaje: "No se encontró el producto o no existe" });
       }
       return res.status(200).json(prodById);
     } catch (error) {
@@ -48,11 +51,25 @@ class Producto {
     }
   }
 
+  async viewByCategory(req, res) {
+    try {
+      const category = await req.params.category;
+      const prodByCategory = await factory.findByCategory(category);
+      if (prodByCategory) {
+        return res.status(200).json(prodByCategory);
+      }
+    } catch (error) {
+      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+    }
+  }
+
   async deleteProd(req, res) {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res.status(404).json({ mensaje: "No se declaró ID de producto" });
+        return res
+          .status(404)
+          .json({ mensaje: "No se declaró ID de producto" });
       }
       const prodToDel = await factory.deleteServiceProducto(_id);
       if (!prodToDel) {
