@@ -1,16 +1,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+const ObjectId = Schema.Types.ObjectId
 
 const orderSchema = new Schema(
   {
-    direction: String,
+    buyer: [],
     status: { type: String, default: "Generada" },
-    items: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "CartModel",
-      },
-    ]
+    items: [],
   },
   {
     timestamps: true,

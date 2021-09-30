@@ -17,8 +17,9 @@ const router = require("./routes/productos.routes.js");
 const routerMsg = require("./routes/mensajes.routes.js");
 const usersRoutes = require("./routes/users.routes.js");
 const cartRoutes = require("./routes/cart.routes.js");
+const orderRoutes = require("./routes/order.routes.js");
 
-/* -------------------- Controllers ---------------------- */
+/* -------------------- Controllers Socket ---------------------- */
 const Mensaje = require("./controllers/Mensaje.js");
 const Producto = require("./controllers/Producto.js");
 const msg = new Mensaje();
@@ -74,6 +75,7 @@ app.set("view engine", "ejs");
 /* -------------------- Endpoints ---------------------- */
 app.use("/api/productos", router);
 app.use("/api/cart", cartRoutes );
+app.use("/api/order", orderRoutes)
 app.use("/mensajes", routerMsg);
 app.use("/user", usersRoutes);
 app.get("/", function (req, res) {
