@@ -4,11 +4,7 @@ const logger = require("../helpers/winston.js");
 const MongoCxn = require("../database/MongoCxn.js");
 
 class ProductoMongo extends DatabaseProductoDao {
-  constructor() {
-    super();
-    this.cxn = new MongoCxn();
-    this.msg = console.log("*** Base de Datos Mongo");
-  }
+  
 
   async addPersistenceProducto(dataToDb) {
     try {

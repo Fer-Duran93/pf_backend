@@ -1,5 +1,10 @@
+const MongoCxn = require("../database/MongoCxn.js");
+
 class DatabaseProductoDao {
-  constructor() {}
+  constructor() {
+    this.cxn = new MongoCxn();
+    this.msg = console.log("*** Base de Datos Mongo");
+  }
 
   async addPersistenceProducto(dataToDb) {
     try {

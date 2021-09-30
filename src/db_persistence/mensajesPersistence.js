@@ -1,8 +1,8 @@
-const BaseMensaje = require ('../repository/mensaje.repository.js');
+const MensajeRepository = require ('../repository/MensajeRepository.js');
 const MensajeModel = require('../models/mensajeSchema.js');
 const logger = require('../helpers/winston.js');
 
-class MensajePersistence extends BaseMensaje {
+class MensajePersistence extends MensajeRepository {
 
     async normalizedDataPersistence() {
         try {

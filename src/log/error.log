@@ -600,3 +600,26 @@
 2021-09-28T05:56:07.541Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
 2021-09-28T05:56:12.233Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
 2021-09-28T05:56:38.708Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-29T04:00:10.038Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:00:10.040Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:02:22.297Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:02:22.298Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:09:42.196Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:09:42.197Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:10:58.729Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:10:58.729Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:26:56.888Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:26:56.889Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:28:38.831Z [31merror[39m: 	Cannot read property 'title' of undefined
+2021-09-29T04:28:38.832Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T04:28:55.373Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-09-29T06:12:42.948Z [31merror[39m: 	Error al iniciar servidor Error: listen EADDRINUSE: address already in use :::8080
+2021-09-30T03:38:45.980Z [31merror[39m: 	productsArray is not defined
+2021-09-30T03:39:59.384Z [31merror[39m: 	productsArray is not defined
+2021-09-30T04:05:25.223Z [31merror[39m: 	data.map is not a function
+2021-09-30T04:06:13.344Z [31merror[39m: 	data.map is not a function
+2021-09-30T04:15:50.339Z [31merror[39m: 	cartDb.findByIdAndDelete is not a function
+2021-09-30T04:16:59.424Z [31merror[39m: 	cartDb.findByIdAndDelete is not a function
+2021-09-30T04:18:05.324Z [31merror[39m: 	cartDb.findByIdAndDelete is not a function
+2021-09-30T04:18:20.177Z [31merror[39m: 	cartDb.findByIdAndDelete is not a function
+2021-09-30T04:18:53.689Z [31merror[39m: 	cartDb.findByIdAndDelete is not a function

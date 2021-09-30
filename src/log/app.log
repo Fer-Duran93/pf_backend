@@ -1407,3 +1407,280 @@
 2021-09-28T05:56:07.517Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24803
 2021-09-28T05:56:12.218Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24862
 2021-09-28T05:56:38.676Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24954
+2021-09-29T03:15:57.423Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10103
+2021-09-29T03:19:34.178Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10627
+2021-09-29T03:20:14.765Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10715
+2021-09-29T03:20:39.654Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10794
+2021-09-29T03:20:42.182Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10840
+2021-09-29T03:24:05.620Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11144
+2021-09-29T03:38:09.139Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11784
+2021-09-29T03:39:12.137Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11866
+2021-09-29T03:39:28.875Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11949
+2021-09-29T03:39:37.600Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12069
+2021-09-29T03:39:44.810Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12117
+2021-09-29T03:40:00.657Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12194
+2021-09-29T03:42:44.212Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12570
+2021-09-29T03:42:53.750Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12642
+2021-09-29T03:53:28.612Z [32minfo[39m: 	Cliente ID:XwIRoa6qenIS9K3CAAAB inició conexión a traves de Socket
+2021-09-29T03:59:15.042Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13611
+2021-09-29T03:59:15.664Z [32minfo[39m: 	Cliente ID:4OcEZz5CC5ZXNQi7AAAB inició conexión a traves de Socket
+2021-09-29T03:59:22.284Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13684
+2021-09-29T03:59:22.539Z [32minfo[39m: 	Cliente ID:He7v1Cmxm8t0rnW_AAAB inició conexión a traves de Socket
+2021-09-29T04:02:03.129Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13888
+2021-09-29T04:02:03.989Z [32minfo[39m: 	Cliente ID:7pNCWZAyU7ITsFQBAAAB inició conexión a traves de Socket
+2021-09-29T04:02:41.496Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14040
+2021-09-29T04:02:41.886Z [32minfo[39m: 	Cliente ID:SitACJ8q0Sj7hKh8AAAB inició conexión a traves de Socket
+2021-09-29T04:02:59.362Z [32minfo[39m: 	Cliente ID:m6jBo6wwM55yZQLsAAAD inició conexión a traves de Socket
+2021-09-29T04:07:20.613Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14333
+2021-09-29T04:07:21.629Z [32minfo[39m: 	Cliente ID:DvD5XIgmUvcxCnCvAAAB inició conexión a traves de Socket
+2021-09-29T04:07:46.391Z [32minfo[39m: 	Cliente ID:K8ns-LThPtNeHK1JAAAD inició conexión a traves de Socket
+2021-09-29T04:09:19.734Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14580
+2021-09-29T04:09:19.941Z [32minfo[39m: 	Cliente ID:VhWSo13tAJA6Ld-VAAAB inició conexión a traves de Socket
+2021-09-29T04:09:22.188Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14628
+2021-09-29T04:09:22.718Z [32minfo[39m: 	Cliente ID:-yL4jDOOQYM_nrjLAAAB inició conexión a traves de Socket
+2021-09-29T04:09:36.315Z [32minfo[39m: 	Cliente ID:F95utwW2ycHkOYtRAAAD inició conexión a traves de Socket
+2021-09-29T04:09:43.089Z [32minfo[39m: 	Cliente ID:l7FwpoQ4rrPw371EAAAF inició conexión a traves de Socket
+2021-09-29T04:10:29.072Z [32minfo[39m: 	Cliente ID:FwDwNdTIG5SmiP6wAAAH inició conexión a traves de Socket
+2021-09-29T04:10:33.829Z [32minfo[39m: 	Cliente ID:yZApcwukoCn1-R9qAAAJ inició conexión a traves de Socket
+2021-09-29T04:10:37.166Z [32minfo[39m: 	Cliente ID:I_lyTWyVeyOpnPMeAAAL inició conexión a traves de Socket
+2021-09-29T04:10:50.648Z [32minfo[39m: 	Cliente ID:ydNpuWu6mmzOjnTzAAAN inició conexión a traves de Socket
+2021-09-29T04:12:10.866Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15123
+2021-09-29T04:12:11.983Z [32minfo[39m: 	Cliente ID:Vtju2nzel7hPiRqJAAAB inició conexión a traves de Socket
+2021-09-29T04:12:25.723Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15214
+2021-09-29T04:12:26.021Z [32minfo[39m: 	Cliente ID:bQfZM_3F4vz7PsEkAAAB inició conexión a traves de Socket
+2021-09-29T04:12:32.132Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15275
+2021-09-29T04:12:33.011Z [32minfo[39m: 	Cliente ID:WX8wPcSFUIdP1A_aAAAB inició conexión a traves de Socket
+2021-09-29T04:12:47.237Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15336
+2021-09-29T04:12:49.018Z [32minfo[39m: 	Cliente ID:JxNxgppAIhG3ci8wAAAB inició conexión a traves de Socket
+2021-09-29T04:20:07.070Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15869
+2021-09-29T04:20:08.009Z [32minfo[39m: 	Cliente ID:ibCkXDmHN0UwL0qWAAAB inició conexión a traves de Socket
+2021-09-29T04:25:19.276Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16501
+2021-09-29T04:25:20.017Z [32minfo[39m: 	Cliente ID:Htk3qkkKOaHx2JdrAAAB inició conexión a traves de Socket
+2021-09-29T04:25:52.885Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16591
+2021-09-29T04:25:54.000Z [32minfo[39m: 	Cliente ID:tgvrgHu3FcH0BiygAAAB inició conexión a traves de Socket
+2021-09-29T04:26:13.955Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16672
+2021-09-29T04:26:15.007Z [32minfo[39m: 	Cliente ID:RJSxUtQD8jnW3MPTAAAB inició conexión a traves de Socket
+2021-09-29T04:26:39.886Z [32minfo[39m: 	Cliente ID:v_bqNuIcRDmWqeVAAAAD inició conexión a traves de Socket
+2021-09-29T04:27:25.734Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16946
+2021-09-29T04:27:27.005Z [32minfo[39m: 	Cliente ID:01G46Id2eGf-zVuAAAAB inició conexión a traves de Socket
+2021-09-29T04:27:56.055Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17037
+2021-09-29T04:27:56.982Z [32minfo[39m: 	Cliente ID:jqndm6dy08X7O2SjAAAB inició conexión a traves de Socket
+2021-09-29T04:28:32.120Z [32minfo[39m: 	Cliente ID:O7mour1QU1gtpiUpAAAD inició conexión a traves de Socket
+2021-09-29T04:28:45.763Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17318
+2021-09-29T04:28:45.983Z [32minfo[39m: 	Cliente ID:U8K7KFKh_9TSJLLYAAAB inició conexión a traves de Socket
+2021-09-29T04:29:49.833Z [32minfo[39m: 	Cliente ID:yQHgQ40s1oyWBvggAAAD inició conexión a traves de Socket
+2021-09-29T04:34:57.145Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17826
+2021-09-29T04:34:58.014Z [32minfo[39m: 	Cliente ID:8jTKSMVbdDtgsqR-AAAB inició conexión a traves de Socket
+2021-09-29T04:35:21.208Z [32minfo[39m: 	Cliente ID:h6S9t6tLH6ejHKh2AAAD inició conexión a traves de Socket
+2021-09-29T04:38:38.897Z [32minfo[39m: 	Cliente ID:3-1vILTXYwnGvZ-wAAAF inició conexión a traves de Socket
+2021-09-29T04:41:00.011Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18460
+2021-09-29T04:41:00.498Z [32minfo[39m: 	Cliente ID:SHdfilkEZxuiTpakAAAB inició conexión a traves de Socket
+2021-09-29T04:41:31.886Z [32minfo[39m: 	Cliente ID:owDc3WYZCyitcjxoAAAD inició conexión a traves de Socket
+2021-09-29T04:42:26.901Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18692
+2021-09-29T04:42:27.694Z [32minfo[39m: 	Cliente ID:CT-_ufi7ZbM6ZyyEAAAB inició conexión a traves de Socket
+2021-09-29T04:42:44.212Z [32minfo[39m: 	Cliente ID:dGEa5-vjP5thBV7_AAAD inició conexión a traves de Socket
+2021-09-29T04:48:41.676Z [32minfo[39m: 	Cliente ID:rsh91xxgGlueaW7NAAAF inició conexión a traves de Socket
+2021-09-29T04:50:48.963Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19180
+2021-09-29T04:50:49.184Z [32minfo[39m: 	Cliente ID:l17Ed3PTED7npaPKAAAB inició conexión a traves de Socket
+2021-09-29T04:51:01.132Z [32minfo[39m: 	Cliente ID:7wbhBar_J48tk5KOAAAD inició conexión a traves de Socket
+2021-09-29T04:51:09.898Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19325
+2021-09-29T04:51:10.752Z [32minfo[39m: 	Cliente ID:KTvglUhfwUUClX3jAAAB inició conexión a traves de Socket
+2021-09-29T04:51:22.956Z [32minfo[39m: 	Cliente ID:6LcjyN43ktd9uMc1AAAD inició conexión a traves de Socket
+2021-09-29T04:52:46.919Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19489
+2021-09-29T04:52:47.995Z [32minfo[39m: 	Cliente ID:itXAlU2AxkdDUz3bAAAB inició conexión a traves de Socket
+2021-09-29T04:52:48.880Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19527
+2021-09-29T04:52:49.985Z [32minfo[39m: 	Cliente ID:7-ZkNKhksusndRATAAAB inició conexión a traves de Socket
+2021-09-29T04:52:54.797Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19588
+2021-09-29T04:52:56.016Z [32minfo[39m: 	Cliente ID:HUoMYr9GpYR0kQ1AAAAB inició conexión a traves de Socket
+2021-09-29T04:53:09.092Z [32minfo[39m: 	Cliente ID:UbRjQfQbGtGGshSqAAAD inició conexión a traves de Socket
+2021-09-29T04:53:48.154Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19730
+2021-09-29T04:53:48.473Z [32minfo[39m: 	Cliente ID:x0ZMZhCHoZDNWLv0AAAB inició conexión a traves de Socket
+2021-09-29T06:15:15.537Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9364
+2021-09-29T06:19:32.423Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10730
+2021-09-29T23:48:28.533Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8684
+2021-09-30T00:49:16.751Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16696
+2021-09-30T00:54:28.943Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18975
+2021-09-30T00:58:10.190Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19678
+2021-09-30T00:58:34.061Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19807
+2021-09-30T00:58:46.751Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19897
+2021-09-30T00:59:11.319Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 19971
+2021-09-30T00:59:53.154Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 20068
+2021-09-30T01:00:10.389Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 20175
+2021-09-30T01:05:21.337Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21045
+2021-09-30T01:05:55.817Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21134
+2021-09-30T01:08:46.268Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21410
+2021-09-30T01:08:54.602Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21492
+2021-09-30T01:13:01.987Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21810
+2021-09-30T01:13:08.467Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21870
+2021-09-30T01:13:09.604Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 21895
+2021-09-30T01:15:17.157Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22100
+2021-09-30T01:16:24.243Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22417
+2021-09-30T01:16:30.648Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22477
+2021-09-30T01:16:43.981Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22588
+2021-09-30T01:17:02.023Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22650
+2021-09-30T01:17:31.898Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22751
+2021-09-30T01:17:42.442Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22829
+2021-09-30T01:17:58.658Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 22950
+2021-09-30T01:18:05.205Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23011
+2021-09-30T01:18:32.564Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23072
+2021-09-30T01:18:40.633Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23144
+2021-09-30T01:18:45.052Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23191
+2021-09-30T01:19:21.725Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23324
+2021-09-30T01:20:15.279Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23423
+2021-09-30T01:20:16.417Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23453
+2021-09-30T01:20:50.515Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23514
+2021-09-30T01:20:59.250Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23594
+2021-09-30T01:21:03.456Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23640
+2021-09-30T01:23:04.646Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23720
+2021-09-30T01:23:07.824Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23770
+2021-09-30T01:23:30.432Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23845
+2021-09-30T01:23:50.670Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 23918
+2021-09-30T01:24:53.901Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24012
+2021-09-30T01:25:03.370Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24084
+2021-09-30T01:25:25.089Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24135
+2021-09-30T01:25:58.327Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24213
+2021-09-30T01:26:04.858Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24276
+2021-09-30T01:26:05.825Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24300
+2021-09-30T01:27:01.000Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24363
+2021-09-30T01:27:06.238Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24412
+2021-09-30T01:27:49.882Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24501
+2021-09-30T01:30:53.839Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24757
+2021-09-30T01:31:35.133Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24876
+2021-09-30T01:31:39.272Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24928
+2021-09-30T01:32:00.977Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 24986
+2021-09-30T01:32:28.787Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25073
+2021-09-30T01:32:32.484Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25119
+2021-09-30T01:32:33.746Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25135
+2021-09-30T01:32:52.838Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25215
+2021-09-30T01:33:04.204Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25294
+2021-09-30T01:33:09.158Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25340
+2021-09-30T01:33:17.970Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25420
+2021-09-30T01:33:19.209Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25436
+2021-09-30T01:34:28.033Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25552
+2021-09-30T01:34:37.987Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25630
+2021-09-30T01:34:43.496Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25679
+2021-09-30T01:35:58.578Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25905
+2021-09-30T01:36:14.732Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 25981
+2021-09-30T01:36:38.412Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26060
+2021-09-30T01:36:47.608Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26136
+2021-09-30T01:37:11.007Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26192
+2021-09-30T01:37:14.498Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26256
+2021-09-30T01:37:19.362Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26303
+2021-09-30T01:39:26.101Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26429
+2021-09-30T01:39:30.002Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26524
+2021-09-30T01:39:58.613Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26595
+2021-09-30T01:40:00.786Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26642
+2021-09-30T01:41:10.533Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26720
+2021-09-30T01:41:39.345Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26877
+2021-09-30T01:42:02.543Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 26979
+2021-09-30T01:42:07.457Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 27028
+2021-09-30T01:42:10.154Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 27073
+2021-09-30T01:42:41.964Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 27124
+2021-09-30T01:42:54.051Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 27197
+2021-09-30T03:01:55.340Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 7331
+2021-09-30T03:04:22.005Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 7579
+2021-09-30T03:06:06.657Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 7693
+2021-09-30T03:06:42.883Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 7771
+2021-09-30T03:06:49.006Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 7833
+2021-09-30T03:07:22.677Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8212
+2021-09-30T03:07:36.722Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8288
+2021-09-30T03:07:53.728Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8362
+2021-09-30T03:08:30.420Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8440
+2021-09-30T03:09:17.958Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8594
+2021-09-30T03:09:55.822Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8669
+2021-09-30T03:09:59.541Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8719
+2021-09-30T03:10:33.863Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8770
+2021-09-30T03:10:35.814Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8807
+2021-09-30T03:11:06.797Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8870
+2021-09-30T03:11:08.489Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8907
+2021-09-30T03:11:13.184Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 8945
+2021-09-30T03:11:39.253Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9010
+2021-09-30T03:11:42.753Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9058
+2021-09-30T03:12:02.975Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9106
+2021-09-30T03:12:17.329Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9190
+2021-09-30T03:12:19.849Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9237
+2021-09-30T03:12:21.778Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9253
+2021-09-30T03:12:33.138Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9298
+2021-09-30T03:12:57.745Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9370
+2021-09-30T03:12:58.841Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9400
+2021-09-30T03:13:00.249Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9424
+2021-09-30T03:13:04.660Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9458
+2021-09-30T03:13:05.648Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9483
+2021-09-30T03:13:29.156Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9532
+2021-09-30T03:13:43.786Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9608
+2021-09-30T03:14:20.538Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9685
+2021-09-30T03:15:04.721Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9762
+2021-09-30T03:15:06.905Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9810
+2021-09-30T03:15:21.369Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9856
+2021-09-30T03:15:27.877Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9919
+2021-09-30T03:15:49.866Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 9981
+2021-09-30T03:16:07.410Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10053
+2021-09-30T03:16:26.733Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10123
+2021-09-30T03:16:40.178Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10193
+2021-09-30T03:16:50.522Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10265
+2021-09-30T03:17:01.948Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10338
+2021-09-30T03:17:15.977Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10408
+2021-09-30T03:17:34.680Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10482
+2021-09-30T03:18:06.413Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10554
+2021-09-30T03:18:30.584Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10630
+2021-09-30T03:18:32.143Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10665
+2021-09-30T03:18:34.633Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10695
+2021-09-30T03:20:02.996Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10792
+2021-09-30T03:20:06.654Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10839
+2021-09-30T03:20:13.644Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10884
+2021-09-30T03:20:42.154Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 10954
+2021-09-30T03:20:44.969Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11002
+2021-09-30T03:20:46.937Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11017
+2021-09-30T03:23:17.958Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11131
+2021-09-30T03:23:32.407Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11203
+2021-09-30T03:23:56.080Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11279
+2021-09-30T03:24:07.889Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11351
+2021-09-30T03:24:58.267Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11455
+2021-09-30T03:26:02.127Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11568
+2021-09-30T03:26:03.418Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11598
+2021-09-30T03:26:15.265Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11655
+2021-09-30T03:26:29.531Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11725
+2021-09-30T03:26:46.718Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 11799
+2021-09-30T03:31:14.918Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12569
+2021-09-30T03:31:48.252Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12652
+2021-09-30T03:31:51.492Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 12699
+2021-09-30T03:39:34.235Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13211
+2021-09-30T03:39:53.661Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13285
+2021-09-30T03:40:32.889Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13401
+2021-09-30T03:41:06.128Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13480
+2021-09-30T03:41:13.107Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13543
+2021-09-30T03:41:26.165Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13597
+2021-09-30T03:42:29.407Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13751
+2021-09-30T03:47:41.782Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 13920
+2021-09-30T03:49:11.579Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14086
+2021-09-30T03:50:31.681Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14187
+2021-09-30T03:51:01.756Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14263
+2021-09-30T03:54:43.505Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 14464
+2021-09-30T04:04:46.412Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15278
+2021-09-30T04:04:51.902Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15369
+2021-09-30T04:06:05.870Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 15793
+2021-09-30T04:09:22.045Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16100
+2021-09-30T04:09:50.387Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16176
+2021-09-30T04:10:02.514Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16253
+2021-09-30T04:11:58.871Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16385
+2021-09-30T04:12:31.840Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16569
+2021-09-30T04:12:36.157Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16621
+2021-09-30T04:12:43.748Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16670
+2021-09-30T04:16:37.878Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 16915
+2021-09-30T04:18:02.543Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17056
+2021-09-30T04:18:16.969Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17141
+2021-09-30T04:18:52.424Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17236
+2021-09-30T04:19:15.391Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17327
+2021-09-30T04:19:19.550Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17373
+2021-09-30T04:19:26.654Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17427
+2021-09-30T04:20:42.365Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17528
+2021-09-30T04:21:07.463Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17609
+2021-09-30T04:21:24.460Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17689
+2021-09-30T04:21:28.727Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17737
+2021-09-30T04:21:52.582Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17788
+2021-09-30T04:22:39.690Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17882
+2021-09-30T04:22:43.386Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17929
+2021-09-30T04:23:24.618Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 17993
+2021-09-30T04:23:38.845Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18077
+2021-09-30T04:24:12.624Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18164
+2021-09-30T04:24:28.806Z [32minfo[39m: 	Se inició servidor en Puerto 8080 - PID WORKER: 18249

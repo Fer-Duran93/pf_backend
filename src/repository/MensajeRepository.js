@@ -1,7 +1,7 @@
 const MensajeModel = require('../models/mensajeSchema.js');
 const logger = require("../helpers/winston.js");
 
-class BaseMensaje {
+class MensajeRepository {
  
   async addMsgPersistence(mensaje) {
     try {
@@ -22,4 +22,4 @@ class BaseMensaje {
   }
 }
 
-module.exports = BaseMensaje;
+module.exports = MensajeRepository;

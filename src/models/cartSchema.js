@@ -4,13 +4,8 @@ const Schema = mongoose.Schema;
 const cartSchema = new Schema(
   {
     direction: String,
-    items: [],
-    email: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "UserModel",
-      },
-    ],
+    email: String,
+    items: []
   },
   {
     timestamps: true,

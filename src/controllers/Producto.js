@@ -19,6 +19,22 @@ class Producto {
     }
   }
 
+  async addBySocket(req, res) {
+    try {
+      if (!req) {
+        return res
+          .status(404)
+          .json({ mensaje: "Error al agregar un producto" });
+      }
+      const data = await req.producto;
+      console.log(data);
+      factory.addServiceProducto(data);
+      return res.redirect("/user/main");
+    } catch (error) {
+      logger.error.error(error);
+    }
+  }
+
   async findAll(req, res) {
     try {
       const prodInDb = await factory.findAllServiceProducto();

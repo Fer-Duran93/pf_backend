@@ -9,12 +9,14 @@ const morgan = require("morgan");
 const logger = require("./helpers/winston.js");
 const config = require("./config/index.js");
 const passport = require("passport");
+//const handlebars = require("express-handlebars");
 require('./passport/passport.js');
 
 /* -------------------- Rutas ---------------------- */
 const router = require("./routes/productos.routes.js");
 const routerMsg = require("./routes/mensajes.routes.js");
 const usersRoutes = require("./routes/users.routes.js");
+const cartRoutes = require("./routes/cart.routes.js");
 
 /* -------------------- Controllers ---------------------- */
 const Mensaje = require("./controllers/Mensaje.js");
@@ -57,8 +59,21 @@ app.use((req, res, next) => {
 app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
+
+// /* -------------------- Handlebars ---------------------- */
+// app.set('view engine', 'hbs');
+// app.engine('hbs', handlebars({
+//         extname: 'hbs',
+//         defaultLayout: 'index',
+//         layoutsDir: __dirname + '/views/layouts',
+//         partialsDir: __dirname + '/views/partials',
+//     })
+// );
+
+
 /* -------------------- Endpoints ---------------------- */
 app.use("/api/productos", router);
+app.use("/api/cart", cartRoutes );
 app.use("/mensajes", routerMsg);
 app.use("/user", usersRoutes);
 app.get("/", function (req, res) {
@@ -92,7 +107,7 @@ io.on("connection", (socket) => {
 
   socket.on("new-producto", async (data) => {
     const producto = await data;
-    prodClass.add({ producto });
+    prodClass.addBySocket({ producto });
     io.sockets.emit("new-prod-server", producto);
   });
 });

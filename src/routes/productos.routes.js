@@ -5,6 +5,8 @@ const router = express.Router();
 const nuevoProducto = new Producto();
 
 
+
+router.post('/', nuevoProducto.addBySocket);
 router.post('/', nuevoProducto.add);
 router.get('/', nuevoProducto.findAll);
 router.get('/:id', nuevoProducto.findByID);

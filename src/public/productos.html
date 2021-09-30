@@ -20,35 +20,40 @@
     <!-- Inicio Formulario Producto -->
     <h2 style="text-align:center; margin-top:1rem">FORMULARIO DE INGRESO PRODUCTO</h2>
     <div class="container bg-secondary text-white p-2">
-      
-      <div class="mb-3">
-        <label for="title" class="form-label">PRODUCTO</label>
-        <input type="text" class="form-control" id="title" name="title" placeholder="Ejemplo: Cafe" autocomplete="off">
-      </div>
-      <div class="mb-3">
-        <label for="price" class="form-label">PRECIO</label>
-        <input type="number" class="form-control" id="price" name="price" placeholder="Ejemplo: 60" autocomplete="off">
-      </div>
-      <div class="mb-3">
-        <label for="stock" class="form-label">STOCK</label>
-        <input type="number" class="form-control" id="stock" name="stock" placeholder="Ejemplo: 200" autocomplete="off">
-      </div>
-      <div class="mb-3">
-        <label for="description" class="form-label">DESCRIPCION</label>
-        <input type="text" class="form-control" id="description" name="description" placeholder="Ejemplo: Cafe Negro Tostado" autocomplete="off">
-      </div>
-      <div class="mb-3">
-        <label for="category" class="form-label">CATEGORIA</label>
-        <input type="text" class="form-control" id="category" name="category" placeholder="Ejemplo: Bebidas" autocomplete="off">
-      </div>
-      <div class="mb-3">
-        <label for="thumbnail" class="form-label">IMAGEN</label>
-        <input type="text" class="form-control" id="thumbnail" name="thumbnail"
-          placeholder="Ejemplo: https://www.iconfinder.com/icons/889376/barista_coffee_doppio_espresso_icon"
-          autocomplete="off">
-      </div>
-      <button type="submit" class="btn btn-primary btn-sm" id="btnForm">AGREGAR</button>
- 
+
+        <div class="mb-3">
+          <label for="title" class="form-label">PRODUCTO</label>
+          <input type="text" class="form-control" id="title" name="title" placeholder="Ejemplo: Cafe"
+            autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="price" class="form-label">PRECIO</label>
+          <input type="number" class="form-control" id="price" name="price" placeholder="Ejemplo: 60"
+            autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="stock" class="form-label">STOCK</label>
+          <input type="number" class="form-control" id="stock" name="stock" placeholder="Ejemplo: 200"
+            autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">DESCRIPCION</label>
+          <input type="text" class="form-control" id="description" name="description"
+            placeholder="Ejemplo: Cafe Negro Tostado" autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="category" class="form-label">CATEGORIA</label>
+          <input type="text" class="form-control" id="category" name="category" placeholder="Ejemplo: Bebidas"
+            autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="thumbnail" class="form-label">IMAGEN</label>
+          <input type="text" class="form-control" id="thumbnail" name="thumbnail"
+            placeholder="Ejemplo: https://www.iconfinder.com/icons/889376/barista_coffee_doppio_espresso_icon"
+            autocomplete="off">
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm" id="btnForm">AGREGAR</button>
+
       <!-- Fin Formulario Producto -->
 
       <!-- Inicio Listado Productos -->
@@ -64,14 +69,17 @@
             <th>PRODUCTO</th>
             <th>PRECIO</th>
             <th>IMAGEN</th>
+            <th>CART</th>
           </tr>
         </thead>
         <tbody id="tableProd">
           <template id="templateList">
             <tr>
+              <td style="display:none;" id="prodId"></td>
               <td id="prodTitle"></td>
               <td id="prodPrice"></td>
               <td><img src="" alt="imagen" id="prodImg" style="width: 10%"></td>
+              <td><button type="submit" id="btnCart"> [+] </button></td>
             </tr>
           </template>
         </tbody>
@@ -102,7 +110,7 @@
         </div>
         <div class="col-6">
           <button type="submit" id="btnOldMsg" class="btn btn-warning btn-sm my-2">Mensaje Guardados</button>
-          
+
           <h6 class="mt-4">Uso del Chat</h6>
           <input type="text" id="userChat" placeholder="E-mail" class="mt-1" required>
           <input type="text" id="userName" placeholder="Nombre" class="mt-1" required>
@@ -111,10 +119,13 @@
           <input type="text" id="userAlias" placeholder="Alias" class="mt-1" required>
           <input type="text" id="userAvatar" placeholder="Avatar (url)" class="mt-1" required>
 
-          <input type="text" id="messageChat" placeholder="Mensaje " class="mt-1" required> 
+          <input type="text" id="messageChat" placeholder="Mensaje " class="mt-1" required>
           <button type="submit" id="btnChat" class="btn btn-primary">Enviar</button>
-          <a tabindex="0" class="btn btn-sm rounded-circle btn-lg btn-danger mx-3 my-1" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="¿Necesitas ayuda?" data-bs-content="Escribí la palabra administrador dentro del cuadro de mensaje" style="display: inline;"><b>?</b></a>
-          
+          <a tabindex="0" class="btn btn-sm rounded-circle btn-lg btn-danger mx-3 my-1" role="button"
+            data-bs-toggle="popover" data-bs-trigger="focus" title="¿Necesitas ayuda?"
+            data-bs-content="Escribí la palabra administrador dentro del cuadro de mensaje"
+            style="display: inline;"><b>?</b></a>
+
         </div>
       </div>
     </div>
@@ -123,9 +134,6 @@
 
   <!-- Fin Chat -->
   <script src="/js/client.js"></script>
-  <!-- NORMALIZR -->
-  <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
-
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

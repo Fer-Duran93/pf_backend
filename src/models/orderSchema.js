@@ -10,13 +10,7 @@ const orderSchema = new Schema(
         type: Schema.Types.ObjectId,
         ref: "CartModel",
       },
-    ],
-    user: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "UserModel",
-      },
-    ],
+    ]
   },
   {
     timestamps: true,

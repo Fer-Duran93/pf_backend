@@ -1,23 +1,5 @@
-class User {
-  /* -------------------- Register ---------------------- */
-  registerGet(req, res) {
-    res.render("register");
-  }
+const UserRepository = require("../repository/UserRepository.js");
 
-  /* -------------------- Login ---------------------- */
-
-  loginGet(req, res) {
-    res.render("login");
-  }
-
-  mainGet(req, res) {
-    res.render("main");
-  }
-
-  logout(req, res) {
-    req.logout();
-    res.redirect("/user/login");
-  }
-}
+class User extends UserRepository {}
 
 module.exports = User;
