@@ -7,7 +7,8 @@ const user = new User();
 
 
 usersRoutes.get('/register', user.registerGet)
-usersRoutes.get('/main', validate ,user.mainGet)
+usersRoutes.get('/main', user.mainGet)
+usersRoutes.get('/chat', user.chatGet)
 usersRoutes.get('/logout', user.logout)
 usersRoutes.get('/login', user.loginGet)
 

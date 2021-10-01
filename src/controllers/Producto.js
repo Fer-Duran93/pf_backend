@@ -27,7 +27,6 @@ class Producto {
           .json({ mensaje: "Error al agregar un producto" });
       }
       const data = await req.producto;
-      console.log(data);
       factory.addServiceProducto(data);
       return res.redirect("/user/main");
     } catch (error) {

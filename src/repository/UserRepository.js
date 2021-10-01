@@ -10,6 +10,10 @@ class UserRepository {
     res.render("login");
   }
 
+  chatGet(req, res) {
+    res.render("chat");
+  }
+
   mainGet(req, res) {
     res.render("main");
   }

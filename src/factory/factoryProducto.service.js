@@ -24,8 +24,9 @@ class FactoryProducto {
         thumbnail: data.thumbnail,
         description: data.description,
         category: data.category,
-        stock: data.stock,
+        stock: data.stocK,
       };
+
       const prod = await this.database.addPersistenceProducto(dataToDb);
       return prod;
     } catch (error) {

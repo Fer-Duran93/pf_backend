@@ -9,7 +9,7 @@ const morgan = require("morgan");
 const logger = require("./helpers/winston.js");
 const config = require("./config/index.js");
 const passport = require("passport");
-//const handlebars = require("express-handlebars");
+const handlebars = require("express-handlebars");
 require('./passport/passport.js');
 
 /* -------------------- Rutas ---------------------- */
@@ -29,6 +29,10 @@ const prodClass = new Producto();
 const app = express();
 const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
+
+/* -------------------- Conexion MongoDB ---------------------- */
+const CxnMongoDAO = require("./DAO/CxnMongoDAO.js")
+const cxn = new CxnMongoDAO();
 
 /* -------------------- Middlewares ---------------------- */
 app.use(cookieParser());
@@ -59,6 +63,8 @@ app.use((req, res, next) => {
 /* -------------------- Ejs ---------------------- */
 app.set("views", "./src/views");
 app.set("view engine", "ejs");
+// app.engine('handlebars', handlebars());
+// app.set('view engine', 'handlebars');
 
 
 // /* -------------------- Handlebars ---------------------- */
