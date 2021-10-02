@@ -1,7 +1,7 @@
 # PROYECTO FINAL BACKEND
 
 1. [Sobre el proyecto](#ABOUT)
-2. [Opciones de Consola](#OPCIONES DE CONSOLA)
+2. [Consola](#CONSOLA)
 3. [Endpoints - Ejemplos / Criterio (Http)](#HTTP)
 4. [Postman](#POSTMAN)
 5. [Librerias Utilizadas](#LIBRERIAS)
@@ -11,7 +11,7 @@
 
 - Proyecto final del curso de backend Coderhouse. El mismo trabaja con base de datos MongoDB
 
-## <a>OPCIONES DE CONSOLA</a>
+## <a>CONSOLA</a>
 [3] Opcional puerto -> Puerto de Inicio
 [4] Opcional DB -> En caso de agregar otras opciones al factory de producto. Default MongoDB.<br>
 
