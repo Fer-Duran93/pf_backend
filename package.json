@@ -7,7 +7,8 @@
   "scripts": {
     "nm": "nodemon ./src/server.js development",
     "dev": "node ./src/server.js development",
-    "prod": "node ./src/server.js production"
+    "prod": "node ./src/server.js production",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
