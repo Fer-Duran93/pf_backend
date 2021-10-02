@@ -1,13 +1,14 @@
 const OrderService = require("../service/OrderService.js");
 const order = new OrderService();
+const logger = require("../helpers/winston.js");
 
 class OrderController {
   addOrder = async (req, res) => {
     try {
       if (!req.body) {
-        return res
-          .status(400)
-          .json({ mensaje: "No se ha podido cargar la orden", error });
+        return res.render("error", {
+          error: "No se ha podido cargar la orden",
+        });
       } else {
         const userId = await req.body.userId;
         const status = await req.body.status;
@@ -15,14 +16,14 @@ class OrderController {
 
         const newOrder = await order.addOrderService(userId, status, cartId);
         if (newOrder == false) {
-          return res
-            .status(400)
-            .json({ mensaje: "No se ha podido cargar la orden", error });
+          return res.render("error", {
+            error: "No se ha podido cargar la orden",
+          });
         }
         return res.status(200).json(newOrder);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -31,7 +32,7 @@ class OrderController {
       const orders = await order.viewAllOrderService();
       return res.status(200).json(orders);
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -39,13 +40,15 @@ class OrderController {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res.status(404).json({ mensaje: "Orden no encontrada", error });
+        return res.render("error", {
+          error: "No se ha podido cargar la orden",
+        });
       } else {
         const orderById = await order.viewByIdOrderService(_id);
         return res.status(200).json(orderById);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -53,16 +56,20 @@ class OrderController {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res.status(404).json({ mensaje: "Orden no encontrada" });
+        return res.render("error", {
+          error: "No se ha podido cargar la orden",
+        });
       } else {
         const orderToDel = await order.deleteOrderService(_id);
         if (!orderToDel) {
-          return res.status(404).json({ mensaje: "Orden no encontrada" });
+          return res.render("error", {
+            error: "No se ha podido cargar la orden",
+          });
         }
         return res.status(200).json(orderToDel);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 }

@@ -10,13 +10,10 @@ class OrderMongo extends OrderDAO {
         { _id: userId },
         { password: 0, createdAt: 0, updatedAt: 0 }
       );
-      console.log(buyer);
       const items = await CartModel.findOne(
         { _id: cartId },
         { createdAt: 0, updatedAt: 0, email: 0 }
       );
-      console.log(items);
-
       const newOrder = await OrderModel.create({ buyer, status, items });
       if (!newOrder) return false;
       return newOrder;

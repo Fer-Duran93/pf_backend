@@ -1,25 +1,26 @@
 const CartService = require("../service/CartService.js");
 const cart = new CartService();
+const logger = require("../helpers/winston.js");
 
 class CartController {
   addCart = async (req, res) => {
     try {
       if (!req.body) {
-        return res
-          .status(400)
-          .json({ mensaje: "No se ha podido agregar nuevo producto", error });
+        return res.render("error", {
+          error: "No se ha podido agregar nuevo producto",
+        });
       } else {
         const data = await { ...req.body };
         const newProducto = await cart.addCartService(data);
         if (newProducto == false) {
-          return res
-            .status(400)
-            .json({ mensaje: "No se ha podido agregar nuevo producto", error });
+          return res.render("error", {
+            error: "No se ha podido agregar nuevo producto",
+          });
         }
         return res.status(200).json(newProducto);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -28,7 +29,7 @@ class CartController {
       const productos = await cart.viewAllCartService();
       return res.status(200).json(productos);
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -36,15 +37,13 @@ class CartController {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res
-          .status(404)
-          .json({ mensaje: "Producto no encontrado", error });
+        return res.render("error", { error: "Producto no encontrado" });
       } else {
         const prodById = await cart.viewByIdCartService(_id);
         return res.status(200).json(prodById);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -52,16 +51,16 @@ class CartController {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res.status(404).json({ mensaje: "Producto no encontrado" });
+        return res.render("error", { error: "Producto no encontrado" });
       } else {
         const prodToDel = await cart.deleteCartService(_id);
         if (!prodToDel) {
-          return res.status(404).json({ mensaje: "Producto no encontrado" });
+          return res.render("error", { error: "Producto no encontrado" });
         }
         return res.status(200).json(prodToDel);
       }
     } catch (error) {
-      return res.status(400).json({ mensaje: "Ocurrió un error", error });
+      logger.error.error(error);
     }
   };
 
@@ -77,7 +76,6 @@ class CartController {
       logger.error.error(error);
     }
   }
-
 }
 
 module.exports = CartController;

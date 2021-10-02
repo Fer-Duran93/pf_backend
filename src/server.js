@@ -10,7 +10,7 @@ const logger = require("./helpers/winston.js");
 const config = require("./config/index.js");
 const passport = require("passport");
 const handlebars = require("express-handlebars");
-require('./passport/passport.js');
+require("./passport/passport.js");
 
 /* -------------------- Rutas ---------------------- */
 const router = require("./routes/productos.routes.js");
@@ -18,6 +18,7 @@ const routerMsg = require("./routes/mensajes.routes.js");
 const usersRoutes = require("./routes/users.routes.js");
 const cartRoutes = require("./routes/cart.routes.js");
 const orderRoutes = require("./routes/order.routes.js");
+const routerInfo = require("./routes/info.routes.js");
 
 /* -------------------- Controllers Socket ---------------------- */
 const Mensaje = require("./controllers/Mensaje.js");
@@ -31,8 +32,8 @@ const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
 
 /* -------------------- Conexion MongoDB ---------------------- */
-const CxnMongoDAO = require("./DAO/CxnMongoDAO.js")
-const cxn = new CxnMongoDAO();
+const CxnMongoDAO = require("./DAO/CxnMongoDAO.js");
+new CxnMongoDAO();
 
 /* -------------------- Middlewares ---------------------- */
 app.use(cookieParser());
@@ -62,10 +63,12 @@ app.use((req, res, next) => {
 
 /* -------------------- Ejs ---------------------- */
 app.set("views", "./src/views");
+
 app.set("view engine", "ejs");
+//app.set('view engine', 'pug');
+
 // app.engine('handlebars', handlebars());
 // app.set('view engine', 'handlebars');
-
 
 // /* -------------------- Handlebars ---------------------- */
 // app.set('view engine', 'hbs');
@@ -77,13 +80,13 @@ app.set("view engine", "ejs");
 //     })
 // );
 
-
 /* -------------------- Endpoints ---------------------- */
 app.use("/api/productos", router);
-app.use("/api/cart", cartRoutes );
-app.use("/api/order", orderRoutes)
-app.use("/mensajes", routerMsg);
+app.use("/api/cart", cartRoutes);
+app.use("/api/order", orderRoutes);
+app.use("/chat", routerMsg);
 app.use("/user", usersRoutes);
+app.use("/info", routerInfo);
 app.get("/", function (req, res) {
   res.render("index");
 });
@@ -103,14 +106,6 @@ io.on("connection", (socket) => {
     toChat.push(data);
     msg.addMsg({ message });
     io.sockets.emit("new-message-server", toChat);
-  });
-
-  socket.on("messageAdmin", async (data) => {
-    const msgAdmin = await data;
-    let name = await msgAdmin.author.nombre;
-    let msg = await msgAdmin.text;
-    let mensajeAlAdmin = `El usuario: ${name} | Envia el siguiente mensaje: ${msg}`;
-    twilioSms(mensajeAlAdmin);
   });
 
   socket.on("new-producto", async (data) => {

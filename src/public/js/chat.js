@@ -12,22 +12,9 @@ botonChat.addEventListener("click", () => {
 function validar() {
   let email = document.getElementById("userEmail").value;
   let message = document.getElementById("messageChat").value;
-  console.log(message);
+
   if (message === "" || email === "") {
     alert(`CAMPOS REQUERIDOS`);
-  } else if (
-    message.includes("administrador") ||
-    message.includes("Administrador") ||
-    message.includes("ADMINISTRADOR")
-  ) {
-    let msgAdmin = {
-      author: {
-        nombre: document.getElementById("userEmail").value,
-      },
-      message: document.getElementById("messageChat").value,
-    };
-    socket.emit("messageAdmin", msgAdmin);
-    document.getElementById("messageChat").value = "";
   } else {
     let mensaje = {
       email: document.getElementById("userEmail").value,

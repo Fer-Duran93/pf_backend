@@ -26,7 +26,7 @@
                     <% } %>
                         <!-- Inicio Chat -->
                         <div class="container bg-secondary text-white p-2" id="divChat">
-                            <h1 style="text-align: center">CHAT</h1>
+                            <h1 style="text-align: center">TUS MENSAJES</h1>
                             <div style="text-align:center">
 
                             </div>
@@ -34,31 +34,19 @@
                                 <div>
                                     <div class="col-12">
                                         <div id="ventana">
-                                            <div id="pantallaOld"></div>
-                                            <hr>
-                                            <div id="pantalla"></div>
+                                           
+
                                         </div>
                                     </div>
                                     <div class="col-6">
 
+                                        <a href="/chat">
+                                            <button class="btn btn-primary">Volver</button>
+                                        </a>
 
-                                        <h6 class="mt-4">Uso del Chat</h6>
-                                        <% if (user) { %>
-                                            <input type="text" id="userEmail" placeholder="E-mail" class="mt-1"
-                                                value=<%=email %> required>
-                                            <% } %>
-                                                <input type="text" id="messageChat" placeholder="Mensaje " class="mt-1"
-                                                    required>
-                                                <button type="submit" id="btnChat"
-                                                    class="btn btn-primary">Enviar</button>
 
-                                                <br>
-                                                <br>
                                     </div>
-                                    <a href="/chat/propio">
-                                        <button class="btn btn-primary">Mensajes Propios</button>
 
-                                    </a>
 
                                 </div>
                             </div>

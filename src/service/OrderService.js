@@ -6,18 +6,20 @@ const mailing = require("../helpers/nodemailer.js");
 class OrderService {
   async addOrderService(userId, status, cartId) {
     try {
-      const newProducto = await orderDb.addOrderDb(userId, status, cartId);
-      if (newProducto == false) {
+      const newOrder = await orderDb.addOrderDb(userId, status, cartId);
+      if (newOrder == false) {
         return false;
-      } else {
-        // const email = data.email;
-        // const subject = "Nuevo Pedido de Compra";
-        // const html = `<p>El usuario ${data.email} a realizado un compra.
-        //               Id de la compra ${newProducto._id}.</p>`;
-        // await mailing(email, subject, html);
-
-        return newProducto;
       }
+
+      console.log("Soy != de vacio", newOrder);
+      const email = data.email;
+      const subject = "Orden de Compra COMPLETADA";
+      const html = `<p>El usuario ${data.email} a realizado la compra.
+                      Id de la compra ${newOrder._id}.</p>`;
+
+      await mailing(email, subject, html);
+
+      return newOrder;
     } catch (error) {
       logger.error.error(error);
     }
@@ -25,9 +27,9 @@ class OrderService {
 
   async viewAllOrderService() {
     try {
-      const productos = await orderDb.viewAllOrderDb();
-      if (productos == false) return false;
-      return productos;
+      const ordenes = await orderDb.viewAllOrderDb();
+      if (ordenes == false) return false;
+      return ordenes;
     } catch (error) {
       logger.error.error(error);
     }
@@ -35,9 +37,9 @@ class OrderService {
 
   async viewByIdOrderService(_id) {
     try {
-      const prodById = await orderDb.viewByIdOrderDb(_id);
-      if (prodById == false) return false;
-      return prodById;
+      const orderById = await orderDb.viewByIdOrderDb(_id);
+      if (orderById == false) return false;
+      return orderById;
     } catch (error) {
       logger.error.error(error);
     }
@@ -45,9 +47,9 @@ class OrderService {
 
   async deleteOrderService(_id) {
     try {
-      const prodToDel = await orderDb.deleteOrderDb(_id);
-      if (prodToDel == false) return false;
-      return prodToDel;
+      const orderToDel = await orderDb.deleteOrderDb(_id);
+      if (orderToDel == false) return false;
+      return orderToDel;
     } catch (error) {
       logger.error.error(error);
     }

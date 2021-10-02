@@ -631,3 +631,12 @@
 2021-10-01T00:33:49.950Z [31merror[39m: 	Cannot read property 'redirect' of undefined
 2021-10-01T00:35:35.093Z [31merror[39m: 	Cannot read property 'redirect' of undefined
 2021-10-01T00:37:24.014Z [31merror[39m: 	Cannot read property 'redirect' of undefined
+2021-10-01T04:48:44.334Z [31merror[39m: 	Can't use updatedAt with String.
+2021-10-01T05:09:29.684Z [31merror[39m: 	data is not defined
+2021-10-01T05:12:43.561Z [31merror[39m: 	data is not defined
+2021-10-01T05:17:12.386Z [31merror[39m: 	data is not defined
+2021-10-01T05:24:44.933Z [31merror[39m: 	data is not defined
+2021-10-02T02:38:39.890Z [31merror[39m: 	data is not defined
+2021-10-02T02:40:09.884Z [31merror[39m: 	data is not defined
+2021-10-02T02:44:46.743Z [31merror[39m: 	data is not defined
+2021-10-02T02:47:27.469Z [31merror[39m: 	data is not defined

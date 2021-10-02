@@ -7,9 +7,9 @@ class Producto {
   async add(req, res) {
     try {
       if (!req) {
-        return res
-          .status(404)
-          .json({ mensaje: "Error al agregar un producto" });
+        return res.render("error", {
+          error: "Error al agregar un producto",
+        });
       }
       const data = await req.body;
       factory.addServiceProducto(data);
@@ -22,9 +22,9 @@ class Producto {
   async addBySocket(req, res) {
     try {
       if (!req) {
-        return res
-          .status(404)
-          .json({ mensaje: "Error al agregar un producto" });
+        return res.render("error", {
+          error: "Error al agregar un producto",
+        });
       }
       const data = await req.producto;
       factory.addServiceProducto(data);
@@ -50,15 +50,15 @@ class Producto {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res
-          .status(404)
-          .json({ mensaje: "Producto no encontrado", error });
+        return res.render("error", {
+          error: "Producto no encontrado",
+        });
       }
       const prodById = await factory.findByIDServiceProducto(_id);
       if (!prodById) {
-        return res
-          .status(404)
-          .json({ mensaje: "No se encontró el producto o no existe" });
+        return res.render("error", {
+          error: "Producto no encontrado o inexistente",
+        });
       }
       return res.status(200).json(prodById);
     } catch (error) {
@@ -82,13 +82,15 @@ class Producto {
     const _id = req.params.id;
     try {
       if (_id === "") {
-        return res
-          .status(404)
-          .json({ mensaje: "No se declaró ID de producto" });
+        return res.render("error", {
+          error: "No hay ID informada",
+        });
       }
       const prodToDel = await factory.deleteServiceProducto(_id);
       if (!prodToDel) {
-        return res.status(404).json({ mensaje: "Producto no encontrado" });
+        return res.render("error", {
+          error: "Producto no encontrado o inexistente",
+        });
       }
       return res.status(200).json({ mensaje: "Producto eliminado con éxito" });
     } catch (error) {
