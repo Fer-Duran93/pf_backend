@@ -12,7 +12,7 @@
 - Proyecto final del curso de backend Coderhouse. El mismo trabaja con base de datos MongoDB
 
 ## <a>CONSOLA</a>
-[3] Opcional puerto -> Puerto de Inicio
+[3] Opcional puerto -> Puerto de Inicio<br>
 [4] Opcional DB -> En caso de agregar otras opciones al factory de producto. Default MongoDB.<br>
 
 Ejemplo<br>
