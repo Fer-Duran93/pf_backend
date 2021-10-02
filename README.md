@@ -12,7 +12,7 @@
 
 ## <a>#HTTP</a> 
 
-* USER:
+### USER:
 - POST /user/register -> Permite el registro de usuario con encriptacón de password.<br>
 Ejemplo:
 <dl>
@@ -37,7 +37,7 @@ Ejemplo:
 
 Caso que el usuario no este logueado no tendrá acceso al sistema y será redireccionado al inicio "/".
 
-* PRODUCTO:
+### PRODUCTO:
 (Valida usuario logueado).
 - GET /api/productos -> Trae todos los productos.
 - GET by ID /api/productos/:id -> Trae producto por ID desde la base de datos.
@@ -58,7 +58,7 @@ Ejemplo:
 - DELETE /api/productos/:id -> Elimina producto por ID informado.
 - PUT /api/productos/:id -> Actualiza un producto por ID informado.
 
-* CART:
+### CART:
 (Valida usuario logueado).
 - GET /api/cart -> Trae todos los carritos de compra guardados.
 - GET by ID /api/cart/:id -> Trae un carrito especifico por su ID.
@@ -68,31 +68,25 @@ Ejemplo:
  <dt>{</dt>
     <dd>"direction": "Av. Pampa 123",</dd>
     <dd>"email": "pedro@quiz.com",</dd>
-    <dd>"items": <dt>[</dt>
-        <dt>{</dt>
+    <dd>"items": <dt>[{</dt> 
             <dd>"title": "Naranja",</dd>
             <dd>"price": 50,</dd>
             <dd>"description": "Naranja Jugo",</dd>
             <dd>"category": "Frutas",</dd>
             <dd>"quantity": 12</dd>
-            <dt>}</dt>
-        <dt>{</dt>
+            <dt>},{</dt>
             <dd>"title": "Banana",</dd>
             <dd>"price": 120,</dd>
             <dd>"description": "Banana Ecuador",</dd>
             <dd>"category": "Frutas",</dd>
             <dd>"quantity": 6</dd>
-        <dt>}</dt>
-
-   <dt>]</dt>
-    <dt>}</dt>
-
+        <dt>}]}</dt>
 </dl>
 
 - UPDATE /api/cart:id -> Devuelve al frontend un array con toda la información del carrito por su ID. Se implementaria vista y lógica para modificar los valores dentro de un carrito , como eliminar items, cambiar cantidad, etc y poder devolver a la base de datos.
 - DELETE /api/cart:id -> Elimina un carrito completo por su ID.
 
-* ORDER:
+### ORDER:
 (Ejecuta el pedido final de una compra. Se implementaria en el frontend lógica y vista para generar un array que contenga los datos del usuario logueado en sesión -como buyer- a través del ID , el status de la orden y un array con todos los items guardados en su carrito previamente creado, también cargado a traves del ID correspondiente).
 - POST /api/order -> Envia y guarda la orden de compra.<br>
 Ejemplo:
