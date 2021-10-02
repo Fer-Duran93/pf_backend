@@ -8,7 +8,7 @@
     "nm": "nodemon ./src/server.js development",
     "dev": "node ./src/server.js development",
     "prod": "node ./src/server.js production",
-    "start": "node server.js"
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "",
