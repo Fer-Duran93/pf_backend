@@ -116,7 +116,7 @@ io.on("connection", (socket) => {
 });
 
 /* -------------------- Servidor ---------------------- */
-const PORT = config.PORT || 8080;
+const PORT = process.env.PORT || config.PORT || 8080;
 
 const server = httpServer.listen(PORT, () => {
   logger.info.info(

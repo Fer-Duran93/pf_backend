@@ -1,16 +1,28 @@
 # PROYECTO FINAL BACKEND
 
 1. [Sobre el proyecto](#ABOUT)
-2. [Endpoints - Ejemplos / Criterio (Http)](#HTTP)
-3. [Postman](#POSTMAN)
-4. [Librerias Utilizadas](#LIBRERIAS)
+2. [Opciones de Consola](#OPCIONES DE CONSOLA)
+3. [Endpoints - Ejemplos / Criterio (Http)](#HTTP)
+4. [Postman](#POSTMAN)
+5. [Librerias Utilizadas](#LIBRERIAS)
 ---
 
-## <a>#ABOUT</a>
+## <a>ABOUT</a>
 
 - Proyecto final del curso de backend Coderhouse. El mismo trabaja con base de datos MongoDB
 
-## <a>#HTTP</a> 
+## <a>OPCIONES DE CONSOLA</a>
+[3] Opcional puerto -> Puerto de Inicio
+[4] Opcional DB -> En caso de agregar otras opciones al factory de producto. Default MongoDB.<br>
+
+Ejemplo<br>
+- Modo Nodemon: yarn nm [8080] [1] || yarn nm [8080]<br>
+- Modo Development: yarn dev [8080] [1] || yarn dev [8080]<br>
+- Modo Production: yarn prod [8080] [1] || yarn prod [8080]<br>
+
+Resto de configuraciones se aplican en los dos archivos .env (modelos ubicados en /src/config)
+
+## <a>HTTP</a> 
 
 ### USER:
 - POST /user/register -> Permite el registro de usuario con encriptacón de password.<br>
@@ -102,11 +114,11 @@ Ejemplo:
 - GET /api/order/:id -> Devuelve una orden especifica por su ID.
 - DELETE /api/order/:id -> Elimina una orden especifica por su ID.
 
-## <a>#POSTMAN</a>
+## <a>POSTMAN</a>
 
 https://www.getpostman.com/collections/e0fa3eded4cd156a3f43
 
-## <a>#LIBRERIAS / DEPENDENCIAS USADAS</a>
+## <a>LIBRERIAS / DEPENDENCIAS USADAS</a>
 
 - bcryptjs 
 - connect-flash 
