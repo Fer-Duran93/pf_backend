@@ -1,7 +1,10 @@
 const passport = require("passport");
+const JWTstrategy = require('passport-jwt').Strategy;
+const ExtractJWT = require('passport-jwt').ExtractJwt;
 const LocalStrategy = require("passport-local").Strategy;
 const UserModel = require("../models/userSchema.js");
 const mailing = require("../helpers/nodemailer.js");
+const config = require("../config/index.js")
 
 passport.serializeUser((user, done) => {
   done(null, user.id);
@@ -12,6 +15,11 @@ passport.deserializeUser((id, done) => {
     done(err, user);
   });
 });
+
+const strategyJWT = {
+  secretOrKey: config.TOKEN,
+  jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
+};
 
 passport.use(
   "register",
@@ -92,5 +100,17 @@ passport.use(
     }
   )
 );
+
+passport.use(
+  new JWTstrategy(strategyJWT, async (token, done) => {
+      try{
+          return done(null, token.user);
+      } catch(error){
+          done(error);
+      }
+  })
+);
+
+
 
 module.exports = passport;

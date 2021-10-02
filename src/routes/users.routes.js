@@ -7,9 +7,9 @@ const user = new User();
 
 
 usersRoutes.get('/register', user.registerGet)
-usersRoutes.get('/main', user.mainGet)
-usersRoutes.get('/chat', user.chatGet)
-usersRoutes.get('/logout', user.logout)
+usersRoutes.get('/main', validate, user.mainGet)
+usersRoutes.get('/chat', validate, user.chatGet)
+usersRoutes.get('/logout', validate, user.logout)
 usersRoutes.get('/login', user.loginGet)
 
 usersRoutes.post('/register', passport.authenticate("register", {
