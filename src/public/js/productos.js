@@ -2,7 +2,7 @@ const socket = io.connect();
 
 /* -------------------  PRODUCTOS -------------------------- */
 
-// ENVIAR PRODUCTOS POR SOCKET
+// Enviar productos por el socket
 document.getElementById("btnForm").addEventListener("click", () => {
   validarForm();
 }); // al apretar el boton ejecuta la fn valida()

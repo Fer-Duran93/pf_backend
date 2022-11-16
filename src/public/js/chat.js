@@ -25,7 +25,7 @@ function validar() {
   }
 }
 
-// Generar la fecha
+// Genera una fecha
 let date = new Date();
 newDate =
   [date.getDate(), date.getMonth() + 1, date.getFullYear()].join("/") +
